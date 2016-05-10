@@ -28,6 +28,10 @@ A comment are those lines that starts with `//`. Comments are ignored by go comp
 
 All Go programs begins with *package declaration*. Every Go program must start with it. Package Declaration is the way go orgnize and reuse code. There are two way of programs: libraries and executable. Executable applications are those programs that we can start from terminal. Libraries are those collections of code that can be reused. The package fmt starts with *package fmt*.
 
+## Functions
+
+Functions are the building blocks of a Go program. A funtion has an input, an output and a body. A body is composed by a series of steps called statements. All statements are executed in order. All funtions starts with *func* keyword. Func keyword and function name are followed by a list of zero or more parameters. All parameters are surrounded by parentheses, and an optional return type. Body is surrounded by curly braces. The function called when a program is executed is `main` function.
+
 ## Use functions in packages
 
 This is a simple program written in go. It is composed by package declaration, one import and a function. This program uses *Println* function from package fmt. To use this function we needed to import fmt package with `import "fmt"` instruction. And then to use Println function of this package we needed to use statement `fmt.Println()`.
