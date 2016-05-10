@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * Introduction
    * [Getting started](Introduction/getting_started.md)
-   * [Types](types.md)
+   * [Types](Introduction/typesmd.md)
 
