@@ -1,4 +1,20 @@
-# First Chapter
+# Getting started
+
+## Environment
+
+The go toolset uses an environment variable called GOPATH to find source code. GOPATH variable must be configured in your system before start.
+
+### OS X
+
+Update your `~.bash_profile` and enter this instruction:
+
+    echo 'export GOPATH=$HOME\n' >> ~/.bash_profile
+    
+To check where is your GOPATH, open your terminal and enter the following:
+
+    env
+    
+This will display your GOPATH value.
 
 ## Whitespaces
 
