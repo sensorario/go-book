@@ -7,4 +7,5 @@
    * [Types](Introduction/types.md)
    * [Control Structures](Introduction/control_structures.md)
 * Types and instructions
+   * Array, Slices and Maps
 
