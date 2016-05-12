@@ -18,4 +18,5 @@
 * Testing
    * [Testing](Testing/testing.md)
 * Resources
+   * Books
 
