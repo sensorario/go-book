@@ -32,3 +32,40 @@ var x [3]float64{
   23,
 }
 ```
+
+## Slices
+
+A slice is a segment of an array. Like array are indexable. But unlike arrays, the length is mutable. In delcaration, the difference is in the missing length:
+
+```go
+var x []float64
+```
+
+If we want to create a slice, we should use `make` function.
+
+```go
+var slice := make([]float64, 5)
+```
+
+Make function accept two parameters: the type of the slice and the lenght.
+
+Another way to create a slice is to use [low:high] expression. `low` is the index of where to start. `high` is the index of where to end it. One or both are not mandatory. Omitting one value, is legal. Omitting low means that slice starts from zero. Omiting high means that slice starts from the last element.
+
+### Append
+
+Append adds elements onto the end of the slice.
+
+### Copy
+
+Copy takes two arguments and copy the second to the first.
+
+### Maps
+
+A `map` is an un ordered collection of key-value pairs. Maps are used to look up a value by its associated array.
+
+```go
+var x map[string]int
+x["question"] = 42
+```
+
+A very common way of using  maps: as lookup tables or a dictionary.
