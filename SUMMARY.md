@@ -6,5 +6,5 @@
    * [Variables](Introduction/variables.md)
    * [Types](Introduction/types.md)
    * [Control Structures](Introduction/control_structures.md)
-* Complex types and instructions
+* Types and instructions
 
