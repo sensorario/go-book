@@ -20,4 +20,5 @@
 * Resources
    * [Books](Resources/books.md)
 * Concurrency
+   * Concurrency
 
