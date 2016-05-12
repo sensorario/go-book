@@ -17,6 +17,4 @@
    * [Packages](Packages/packages.md)
 * Testing
    * [Testing](Testing/testing.md)
-* Bibliography
-   * [Books](Bibliography/books.md)
 
