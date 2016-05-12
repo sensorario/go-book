@@ -8,4 +8,5 @@
    * [Control Structures](Introduction/control_structures.md)
 * Complex types
    * [Array, Slices and Maps](Complex Types/array,_slices_and_maps.md)
+   * Functions
 
