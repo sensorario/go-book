@@ -55,4 +55,3 @@ A pointer is represented using an asterisk followed by the type of the stored va
 
 ### New
 
-Funftion `new` takes a type as argument. It allocate memory for the type, and return a pointer to it. In other languages we need to free memory. Go is a garbage-collected language. This means that is cleaned up memory automatically when nothing refers to it.
