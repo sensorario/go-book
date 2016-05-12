@@ -5,5 +5,5 @@
    * [Getting started](Introduction/getting_started.md)
    * [Types](Introduction/types.md)
    * [Variables](Introduction/variables.md)
-   * [Types](Introdution/types.md)
+   * [Types](Introduction/typesmd.md)
 
