@@ -11,5 +11,5 @@
    * [Functions](Complex Types/functions.md)
    * [Structs and Interfaces](Complex Types/structs_and_interfaces.md)
 * Examples
-   * Sorting list
+   * Sorted list
 
