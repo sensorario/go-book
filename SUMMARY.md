@@ -19,4 +19,5 @@
    * [Testing](Testing/testing.md)
 * Resources
    * [Books](Resources/books.md)
+* Concurrency
 
