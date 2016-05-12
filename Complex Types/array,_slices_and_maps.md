@@ -55,6 +55,13 @@ Another way to create a slice is to use [low:high] expression. `low` is the inde
 
 Append adds elements onto the end of the slice.
 
+```go
+func main() {
+  slice := []int{42, 23}
+  slice_two := append(slice, 7) // 42, 23, 7
+}
+```
+
 ### Copy
 
 Copy takes two arguments and copy the second to the first.
