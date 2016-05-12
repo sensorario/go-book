@@ -18,5 +18,5 @@
 * Testing
    * [Testing](Testing/testing.md)
 * Bibliography
-   * Books
+   * [Books](Bibliography/books.md)
 
