@@ -54,7 +54,7 @@ simone.name
 The difference between function and methods is that a method has a receiver. A receiver is a type.
 
 ```go
-func (p *Persono) completeName() {
+func (p *Person) completeName() {
   return p.surname + " " + p.name
 }
 ```
