@@ -9,4 +9,5 @@
 * Complex types
    * [Array, Slices and Maps](Complex Types/array,_slices_and_maps.md)
    * [Functions](Complex Types/functions.md)
+   * Structs and Interfaces
 
