@@ -20,3 +20,15 @@ for -, value := range x {
   total += value
 }
 ```
+
+The underscore `_` tells to the Go compiler that we dont need any iterator variable.
+
+Another way to define arrays is the following. Notice the extra trailing ,. Comma is required by Go. It allow easilly to remove an element from the array by commenting out the line.
+
+```go
+var x [3]float64{
+  42,
+  7,
+  23,
+}
+```
