@@ -6,6 +6,6 @@
    * [Variables](Introduction/variables.md)
    * [Types](Introduction/types.md)
    * [Control Structures](Introduction/control_structures.md)
-* Types and instructions
+* Complex types
    * Array, Slices and Maps
 
