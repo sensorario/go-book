@@ -18,5 +18,5 @@
 * Testing
    * [Testing](Testing/testing.md)
 * Resources
-   * Books
+   * [Books](Resources/books.md)
 
