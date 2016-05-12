@@ -12,5 +12,5 @@
    * [Structs and Interfaces](Complex Types/structs_and_interfaces.md)
 * Examples
    * [Sorted list](Examples/sorted_list.md)
-   * Command-Line
+   * [Command-Line](Examples/command-line.md)
 
