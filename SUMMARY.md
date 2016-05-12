@@ -19,6 +19,6 @@
    * [Testing](Testing/testing.md)
 * Resources
    * [Books](Resources/books.md)
-* Concurrency
+* [Concurrency](Concurrency/concurrency.md)
    * Concurrency
 
