@@ -1,9 +1,5 @@
 # For
 
-
-
-## For
-
 For statements allows developer to repeate a list of statements. The following is the shorter syntax.
 
 ```go
