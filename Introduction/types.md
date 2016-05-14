@@ -26,7 +26,9 @@ In mathematic, similar types of numbers, corresponds to a set. Sets are similat 
 
 Go is statically typed programming language. Variable always have a specific type and that type cannot change. Type help developer to know about what our program is doing and catch a wide variety of common mistakes.
 
-## Strings
+## Types
+
+### Strings
 
 A String is a sequence of characters with a definite length. It is used to represent text. Go strings are made up of individual bytes, usually one for each character.
 
@@ -36,14 +38,28 @@ String are indexed starting from zero and not from one.
 
 Concatenation is is made with + operator. Is the same addition symbol. Go compiler figures out what to do based on types of the arguments. Because both side of the + are strings, the compiler assumes you mean that you want a concatenation. Not an addition.
 
-## Booleans
+### Booleans
 
 A boolean value is a particular integer that can assume only two values: 1 or 0. The former represent true value, and the latter false.
 
-## Integer
+### Integer
 
 Integers are numbers without a decimal component. Unlike base-10 decimal system we use to represent numbers, computers use a base-2 binary system. There are also three machine dependent integer types: uint, int, and uintptr. They are machine dependent because their size depends on the type of architecture you are using.
 
-## Floating-point
+### Floating-point
 
 Floating-point numbers are numbers that contain a decimal component. Go has two additional types for representing complex numbers: complex64 ans complex 128. Generally, we should stick with float64.
+
+## Type conversion
+
+Sometimes we need to convert integers in strings or vice versa. Boolean in integer. Depending on the purpose of our program, sometimes we need to get a value of a variable, but in another format. Another *type*.
+
+To convert a variable to another type, we can use type as function, passing variable to convert as argument.
+
+```go
+number := "56"
+integer := int(56)
+floatNumber := float64(integer)
+```
+
+In other languages assignment between different types automatically cast value. In Go this must be explicit.
