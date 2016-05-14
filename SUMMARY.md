@@ -13,7 +13,7 @@
 * [Examples](Examples)
    * [Sorted list](Examples/sorted_list.md)
    * [Command-Line](Examples/command-line.md)
-   * Hello world
+   * [Hello world](hello_world.md)
 * Packages
    * [Packages](Packages/packages.md)
 * Testing
