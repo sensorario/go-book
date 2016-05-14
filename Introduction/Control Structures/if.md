@@ -19,3 +19,5 @@ if true {
   // execute me
 }
 ```
+
+If statement can execute a little statement before the condition. The scope of variable create here is just the if scope.
