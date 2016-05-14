@@ -8,4 +8,10 @@ Like variables, constant can be a value of different type. For example a charact
 
 ## Declaration
 
-Unlike variables, constants cannot be declared using `:=` syntax.
+Unlike variables, constants cannot be declared using `:=` syntax. More constant can be delcaring omitting `const` for all constant.
+
+```go
+const (
+  name := "Simone"
+  surname := "Gentili"
+)
