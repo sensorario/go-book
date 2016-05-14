@@ -43,3 +43,11 @@ for i < 42 {
     i += i
 }
 ```
+
+When you omit everything, you obtain an infinite loop.
+
+```go
+for {
+  // code for the loop
+}
+```
