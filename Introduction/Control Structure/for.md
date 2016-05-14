@@ -24,4 +24,4 @@ For loop has three components. Each components is separated by semicolons. Three
 
 In other languages, parentheses surrounds three components. In Go Programming language there are no parenthesis. In other languages { } are not mandatoru. In Go Programming Language are always required.
 
-Loop iterate until the condition is not verified.
+Loop iterate until the condition return false. Condition must be a boolena expression like `i <= 10`.
