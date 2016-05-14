@@ -18,7 +18,13 @@ There are two ways to create a variable with an initializer.
 var varName string = "value"
 ```
 
-Creating a variable is so common that a shorter statement is available. The shorten way should be used whenever possible.
+When a variable is initialized, we can omit the type.
+
+```go
+var varName = "value"
+```
+
+We can also omit var keyword and just type variable with assignment. Creating a variable is so common that a shorter statement is available. The shorten way should be used whenever possible.
 
 ```go
 varName := "value"
