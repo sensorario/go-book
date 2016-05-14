@@ -2,13 +2,23 @@
 
 ## Create new variable
 
-There are two ways to create a variable. Creating a variable is so common that a shorter statement is available.
+A variable can be create using `var` keyword followed by variable name and type.
+
+```go
+var hello string
+```
+
+You cannot declare variable that you dont use inside your code. Could be a good idea create variables with an initializers.
+
+### Variable with initializers
+
+There are two ways to create a variable with an initializer.
 
 ```go
 var varName string = "value"
 ```
 
-The shorten way should be used whenever possible.
+Creating a variable is so common that a shorter statement is available. The shorten way should be used whenever possible.
 
 ```go
 varName := "value"
