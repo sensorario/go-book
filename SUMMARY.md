@@ -7,6 +7,7 @@
    * [Types](Introduction/types.md)
    * [Control Structures](Introduction/control_structures.md)
        * [For](Introduction/Control Structure/for.md)
+       * If
    * [Constants](Introduction/constants.md)
 * Complex types
    * [Array, Slices and Maps](Complex Types/array,_slices_and_maps.md)
