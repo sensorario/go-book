@@ -48,6 +48,6 @@ When you omit everything, you obtain an infinite loop.
 
 ```go
 for {
-  // code for the loop
+    // code for the loop
 }
 ```
