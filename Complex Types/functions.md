@@ -56,6 +56,19 @@ func doNothing(x, y int) (int, int) {
 }
 ```
 
+### Named returned value
+
+Value returned can be named. This means that we must just set them inside the function. To return them we just need to declare what function want return. Finally, once variable are valorized, we can just use return statement.
+
+```go
+func sum(a, b int) (result int) {
+	result = a + b
+	return
+}
+```
+
+When return is called, Go autmatically knwos that variable to return is the `int` variable called `result`.
+
 ## Closure
 
 It is possible to create a function inside a function.
