@@ -20,4 +20,4 @@ if true {
 }
 ```
 
-If statement can execute a little statement before the condition. The scope of variable create here is just the if scope.
+If statement can execute a little statement before the condition. The scope of variable create here is just the if scope, and also in else scope and else if.
