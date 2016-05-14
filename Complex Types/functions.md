@@ -42,6 +42,8 @@ func main() {
 }
 ```
 
+When two or more parametr has the same type, you can omit all but the last. Go undertand type when omitted in this case.
+
 ## Variadic functions
 
 ////// Variadic
