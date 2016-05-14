@@ -46,9 +46,15 @@ func main() {
 
 When two or more parametr has the same type, you can omit all but the last. Go undertand type when omitted in this case. This may be not good for the readability of the code.
 
-## Variadic functions
+### Return
 
-////// Variadic
+A function can return any nymber of variable. Here an example, where a function returns same variable taken in input.
+
+```go
+func doNothing(x, y int) (int, int) {
+	return y, x
+}
+```
 
 ## Closure
 
@@ -63,15 +69,10 @@ func function() func() int {
 }
 ```
 
-## Defer, panic and recover
+## Defer
 
 Go has a special statement called `defer` that schedules a function call to be run after function completes. `defer` is often used when resources need to be freed.
-
-////// panic and recover
 
 ## Pointers
 
 A pointer is represented using an asterisk followed by the type of the stored value. We use & operator to find the address of a variable.
-
-### New
-
