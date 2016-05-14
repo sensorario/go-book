@@ -6,7 +6,7 @@
    * [Variables](Introduction/variables.md)
    * [Types](Introduction/types.md)
    * [Control Structures](Introduction/control_structures.md)
-   * Constants
+   * [Constants](Introduction/constants.md)
 * Complex types
    * [Array, Slices and Maps](Complex Types/array,_slices_and_maps.md)
    * [Functions](Complex Types/functions.md)
