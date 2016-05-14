@@ -42,9 +42,6 @@ We can declare a variable within its initializers and assign a value. But we can
 
 Go is lexically scoped using blocks. This means that the variable exists within the nearest curly braces ({}), or block. Including any nested curly braces, but not outside of them.
 
-## Constants
-
-Go also has support for constants. Constants are essentially variables whose values cannot be changed later. They are created in the same way you create variables, but instead of using the var keyword we use the const keyword.
 
 ## Multiple variables
 
