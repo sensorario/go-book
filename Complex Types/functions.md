@@ -2,8 +2,6 @@
 
 A function is a section of code that maps zero or more input parameters to zero or more output parameters. Stars with keyword `func` followed by function's name. Agter function's name, are defined parameters defined by name and type. After parameters, there is the return type. Function name, parameters and return type are knowns as *function's signature*.
 
-Parameters namex ca be different when a function is called.
-
 Variable must be passed to the function. Depending on the function position. If the `scope` of the variable is the same of the function, function can access to the variable. Must be passed instead.
 
 Function form call stacks: each time a function is called, we push it onto the call stack. Each time we return from a function, we pop the last function from that stack.
@@ -23,6 +21,24 @@ Multiple values can be returned.
 ```go
 func completeName() (string, string) {
   return "Simone", "Gentili"
+}
+```
+
+### Parameters
+
+Function can have zero or more parameters. In this example we have zero parameters in main function. But also two parameters in sum function.
+
+```go
+package main
+
+import "fmt"
+
+func sum(firstAddend int, secondAddend int) int {
+	return firstAddend + secondAddend
+}
+
+func main() {
+	fmt.Println("Sum is " + string(sum(42, 13)))
 }
 ```
 
