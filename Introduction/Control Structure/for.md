@@ -25,3 +25,21 @@ For loop has three components. Each components is separated by semicolons. Three
 In other languages, parentheses surrounds three components. In Go Programming language there are no parenthesis. In other languages { } are not mandatoru. In Go Programming Language are always required.
 
 Loop iterate until the condition return false. Condition must be a boolena expression like `i <= 10`.
+
+Three elements are not all mandatory. For example you can omit init and post statement.
+
+```go
+i := 1
+for ; i < 42; {
+    i += i
+}
+```
+
+In this case semicolon can be omitted
+
+```go
+i := 1
+for i < 42 {
+    i += i
+}
+```
