@@ -20,3 +20,10 @@ func main() {
 	fmt.Printf("Pi value is %g", math.Pi)
 }
 ```
+
+## Exported names
+
+Both Pi and Println have a name that starts with a capital letter. When variable or function names starts with a capital letter are exported. And when something in exported from current package, means that is visible from others. Obviously, unexported names are not accessible from other packages.
+
+    Exercise:
+    Try to access to an unexported names.
