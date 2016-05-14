@@ -6,7 +6,7 @@
    * [Variables](Introduction/variables.md)
    * [Types](Introduction/types.md)
    * [Control Structures](Introduction/control_structures.md)
-       * [For](Introduction/Control Structure/for.md)
+       * [For](Introduction/Control Structures/for.md)
        * [If](Introduction/Control Structures/if.md)
        * Switch
    * [Constants](Introduction/constants.md)
