@@ -8,7 +8,7 @@
    * [Control Structures](Introduction/control_structures.md)
        * [For](Introduction/Control Structures/for.md)
        * [If](Introduction/Control Structures/if.md)
-       * Switch
+       * [Switch](Introduction/Control Structures/switch.md)
    * [Constants](Introduction/constants.md)
 * Complex types
    * [Array, Slices and Maps](Complex Types/array,_slices_and_maps.md)
