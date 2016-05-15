@@ -1,3 +1,7 @@
 # Links
 
-- https://tour.golang.org
+| link | description |
+| -- | -- |
+| https://tour.golang.org | A serie of lesson to learn go step by steps |
+| https://play.golang.org | A tool to to test code directly onlyne |
+
