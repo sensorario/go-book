@@ -16,6 +16,8 @@
    * [Structs and Interfaces](Complex Types/structs_and_interfaces.md)
 * [Packages](Packages)
    * [Packages](Packages/packages.md)
+* [Concurrency](Concurrency/concurrency.md)
+   * Concurrency
 * Testing
    * [Testing](Testing/testing.md)
 * Resources
@@ -24,6 +26,4 @@
    * [Sorted list](Examples/sorted_list.md)
    * [Command-Line](Examples/command-line.md)
    * [Hello world](Examples/helloworld.md)
-* [Concurrency](Concurrency/concurrency.md)
-   * Concurrency
 
