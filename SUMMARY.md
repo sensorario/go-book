@@ -20,7 +20,7 @@
    * Concurrency
 * Testing
    * [Testing](Testing/testing.md)
-* Resources
+* [Resources](Resources)
    * [Books](Resources/books.md)
 * [Examples](Examples)
    * [Sorted list](Examples/sorted_list.md)
