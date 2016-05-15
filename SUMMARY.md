@@ -22,7 +22,7 @@
    * [Testing](Testing/testing.md)
 * [Resources](Resources)
    * [Books](Resources/books.md)
-   * Links
+   * [Links](Resources/links.md)
 * [Examples](Examples)
    * [Sorted list](Examples/sorted_list.md)
    * [Command-Line](Examples/command-line.md)
