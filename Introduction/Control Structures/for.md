@@ -51,3 +51,18 @@ for {
     // code for the loop
 }
 ```
+
+## Range
+
+Go programming language, provide a keyword to iterate an array. Using `range` followed by the name of the variable we want to loop over, we can iterate for all its items.
+
+```go
+names := [2]string{
+  "Simone",
+  "Gentili",
+}
+
+for name = range names {
+  fmt.Println(name)
+}
+```
