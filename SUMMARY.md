@@ -17,7 +17,7 @@
 * [Packages](Packages/packages.md)
    * [reflect](Packages/reflect.md)
 * [Concurrency](Concurrency/concurrency.md)
-   * Concurrency
+   * [Concurrency](Concurrency/concurrency.md)
 * Testing
    * [Testing](Testing/testing.md)
 * [Resources](Resources)
