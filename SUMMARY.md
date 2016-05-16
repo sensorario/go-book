@@ -16,7 +16,7 @@
    * [Structs and Interfaces](Complex Types/structs_and_interfaces.md)
 * [Packages](Packages/packages.md)
    * [reflect](Packages/reflect.md)
-* [Concurrency](Concurrency/concurrency.md)
+* Concurrency
    * [Concurency](Concurrency/concurency.md)
 * Testing
    * [Testing](Testing/testing.md)
