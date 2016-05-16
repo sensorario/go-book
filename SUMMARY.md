@@ -7,7 +7,7 @@
    * [Types](Introduction/types.md)
    * [Constants](Introduction/constants.md)
 * [Control Structures](Control Structures/README.md)
-   * [For](Introduction/Control Structures/for.md)
+   * [For](Control Structures/for.md)
    * [If](Introduction/Control Structures/if.md)
    * [Switch](Introduction/Control Structures/switch.md)
 * Complex types
