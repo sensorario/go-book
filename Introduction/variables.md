@@ -8,11 +8,11 @@ A variable can be create using `var` keyword followed by variable name and type.
 var hello string
 ```
 
-You cannot declare variable that you dont use inside your code. Could be a good idea create variables with an initializers.
+You cannot declare variable that you don't use inside your code. Could be a good idea create variables with "`initializers`".
 
-### Variable with initializers
+### Variable with `initializers`
 
-There are two ways to create a variable with an initializer.
+There are two ways to create a variable with "`initializer`".
 
 ```go
 var varName string = "value"
@@ -36,20 +36,20 @@ This is the most compact variable declaration. Use it within a function. Not for
 
 ### Zero values
 
-A variable can be init as part of its declaration. We can declare a variable within its initializers and assign a value. But we can also declare variables without an explicit initial value. Go compiler will assign to the variable its zero value.
+A variable initialization, can be as part of its declaration. We can declare a variable within its `initializers` and assign a value. But we can also declare variables without an explicit initial value. Go compiler will assign to the variable its zero value.
 
- - 0 for numeric types
- - false for the boolean type
- - "" (the empty string) for strings
+ - Zero, `0`, for numeric types
+ - False, `false`, for the `boolean` type
+ - Empty string, `""` for strings
 
 ## Scope
 
-Go is lexically scoped using blocks. This means that the variable exists within the nearest curly braces ({}), or block. Including any nested curly braces, but not outside of them.
+The variable exists within the nearest curly braces ({}), or block. Including any nested curly braces, but not outside of them.
 
 
-## Multiple variables
+## Declare variables
 
-Variable can be delcare in different ways.
+Variable can be declare in different ways.
 
 ```go
 var a = 5
@@ -57,7 +57,7 @@ var b = 6
 var c = 42
 ```
 
-Can be written also omitting var keyword for each statement.
+Can be also omitted var keyword for each statement.
 
 ```go
 var (
@@ -67,7 +67,7 @@ var (
 )
 ```
 
-The var statement could declare a list of variables instead of single one. When we compose function signature, type in argument can be omitted in all parameters but the last. Also in variable declaration Go leave this feature: when var is used to declare more variables, type should be in the last position.
+The var statement could declare a list of variables instead of single one. When we compose function signature, type in argument can be omit in all parameters but the last. When var declares more variables, type should be in the last position.
 
 ```go
 var a, b, c, d int
