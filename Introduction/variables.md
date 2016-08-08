@@ -36,7 +36,7 @@ This is the most compact variable declaration. Use it within a function. Not for
 
 ### Zero values
 
-A variable can be initialized as part of its declaration. We can declare a variable within its initializers and assign a value. But we can also declare variables without an explicit initial value. Go compiler will assign to the variable its zero value.
+A variable can be init as part of its declaration. We can declare a variable within its initializers and assign a value. But we can also declare variables without an explicit initial value. Go compiler will assign to the variable its zero value.
 
  - 0 for numeric types
  - false for the boolean type
