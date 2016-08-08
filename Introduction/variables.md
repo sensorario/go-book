@@ -18,7 +18,7 @@ There are two ways to create a variable with an initializer.
 var varName string = "value"
 ```
 
-When a variable is initialized, we can omit the type.
+When a variable initialized, we can omit the type.
 
 ```go
 var varName = "value"
