@@ -32,6 +32,8 @@ We can also omit var keyword and just type variable with assignment. Creating a 
 varName := "value"
 ```
 
+This is the most compact variable declaration. Use it within a function. Not for a package level variables.
+
 ### Zero values
 
 A variable can be initialized as part of its declaration. We can declare a variable within its initializers and assign a value. But we can also declare variables without an explicit initial value. Go compiler will assign to the variable its zero value.
