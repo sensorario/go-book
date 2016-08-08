@@ -30,9 +30,9 @@ Other programming languages have different loops. For example while do, do while
 
 For loop has three components. Each components is separated by semicolons. Three parts are initialization, condition and post statement. Init statement, is executed before first iteration. After initialization we have condition. The condition is evaluated before every interation. And at the end of an iteration is executed also post statement.
 
-In other languages, parentheses surrounds three components. In Go Programming language there are no parenthesis. In other languages { } are not mandatoru. In Go Programming Language are always required.
+In other languages, parentheses surrounds three components. In Go Programming language there are no parenthesis. In other languages { } are not mandatory. In Go Programming Language are always required.
 
-Loop iterate until the condition return false. Condition must be a boolena expression like `i <= 10`.
+Loop iterate until the condition return false. Condition must be a boolean expression like `i <= 10`.
 
 Three elements are not all mandatory. For example you can omit init and post statement.
 
