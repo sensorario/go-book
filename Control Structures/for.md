@@ -52,7 +52,7 @@ for i < 42 {
 }
 ```
 
-When you omit everything, you obtain an infinite loop.
+When you omit everything, you have an infinite loop.
 
 ```go
 for {
