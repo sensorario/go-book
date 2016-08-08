@@ -43,7 +43,7 @@ for ; i < 42; {
 }
 ```
 
-In this case semicolon can be omitted
+When no initialization nor post are present, you can omit semicolon.
 
 ```go
 i := 1
