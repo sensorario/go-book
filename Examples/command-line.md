@@ -28,3 +28,28 @@ func main() {
 Here we introduce the `os` package. This package provides functions and other values for dealing with the operating system. Command line arguments are available in a variable names `Args`.
 
 First element of this variable is the name of the command itself. Other elements are the arguments presented to the program when it started.
+
+```go
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	var s, sep string
+	for i := 1; i < len(os.Args); i++ {
+		s += sep + os.Args[i]
+		sep = "\n"
+	}
+	fmt.Println(s)
+}
+```
+
+    $ go tun main.go hello=world ciao=mondo
+    
+    hello=world
+    ciao=mondo
+    
+    
