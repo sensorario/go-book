@@ -24,7 +24,9 @@ When a variable initialized, we can omit the type.
 var varName = "value"
 ```
 
-We can also omit var keyword and just type variable with assignment. Creating a variable is so common that a shorter statement is available. The shorten way should be used whenever possible.
+### Short variable declaration
+
+We can also omit var keyword and just type variable with assignment. Creating a variable is so common that a shorter statement is available. The shorten way should be used whenever possible. The `:=` symbol is part of a *short variable declaration*. Is a statement that declares one or more variables. The statement gives them appropriate types based on the initializer values.
 
 ```go
 varName := "value"
