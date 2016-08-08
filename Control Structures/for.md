@@ -1,5 +1,13 @@
 # For
 
+```go
+for initialization; condition; post {
+  // zero or more statements
+}
+```
+
+Parentheses are never used around three component of a loop. Braces are mandatory. The opening brace must be on the same line as the *post* statement.
+
 For statements allows developer to repeate a list of statements. The following is the shorter syntax. And this is the only loop statement provided by Go Programming Language.
 
 ```go
