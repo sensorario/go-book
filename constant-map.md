@@ -1,3 +1,5 @@
+## Constant map
+
 ## Declare literal maps
 
 It is possible to declare constants literal in this way.

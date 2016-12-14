@@ -24,5 +24,4 @@
     * [Links](Resources/links.md)
 * [Testing](Testing)
     * [Testing](Testing/testing.md)
-* Constant map
 
