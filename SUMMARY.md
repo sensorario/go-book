@@ -11,7 +11,7 @@
     * [If](Control Structures/if.md)
     * [Switch](Control Structures/switch.md)
 * Complex types
-    * [Array, Slices and Maps](Complex Types/array,_slices_and_maps.md)
+    * [Array and Slices](Complex Types/array,_slices_and_maps.md)
     * [Functions](Complex Types/functions.md)
     * [Structs and Interfaces](Complex Types/structs_and_interfaces.md)
     * [Constant map](constant-map.md)

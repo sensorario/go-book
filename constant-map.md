@@ -20,5 +20,14 @@ romanNumeralDict := map[int]string{
 }
 ```
 
+### Maps
 
+A`map`is an un ordered collection of key-value pairs. Maps are used to look up a value by its associated array.
+
+```
+var x map[string]int
+x["question"] = 42
+```
+
+A very common way of using maps: as lookup tables or a dictionary.
 
