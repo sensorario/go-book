@@ -10,7 +10,7 @@
     * [For](Control Structures/for.md)
     * [If](Control Structures/if.md)
     * [Switch](Control Structures/switch.md)
-* Complex types
+* [Complex types](complex-types.md)
     * [Array and Slices](Complex Types/array,_slices_and_maps.md)
     * [Functions](Complex Types/functions.md)
     * [Structs and Interfaces](Complex Types/structs_and_interfaces.md)
@@ -24,4 +24,9 @@
     * [Links](Resources/links.md)
 * [Testing](Testing)
     * [Testing](Testing/testing.md)
+* [Examples](examples.md)
+    * [Command line](Examples/command-line.md)
+    * [Count files and lines](Examples/count_file_lines.md)
+    * [Hello world](Examples/helloworld.md)
+    * [Sorted list](Examples/sorted_list.md)
 
