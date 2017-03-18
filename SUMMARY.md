@@ -6,6 +6,8 @@
 
 ## Examples
 
+* simple
+  * sample
 * [Hello world](Examples/helloworld.md)
 * [Command line](Examples/command-line.md)
 * [Sorted list](Examples/sorted_list.md)
