@@ -8,6 +8,17 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, 世界")
+    fmt.Println("Hello, 世界")
 }
 ```
+
+## Imports
+
+The import part, load packages used inside the main function. This section must contain only used packages. Unused packages will cause a build error.
+
+## Main function
+
+Main package must contain a main function. This is the entry point of go programs.
+
+
+
