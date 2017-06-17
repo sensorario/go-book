@@ -16,6 +16,7 @@ x[1] = 7
 x[2] = 23
 
 var total float64 = 0
+
 for -, value := range x {
   total += value
 }

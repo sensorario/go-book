@@ -5,7 +5,7 @@
 Is a type that contains named fields.
 
 ```go
-type Person {
+type Person struct {
   name string
   surname string
 }
@@ -14,7 +14,7 @@ type Person {
 allow simple syntax
 
 ```go
-type Person {
+type Person struct {
   name, surname string
 }
 ```
@@ -70,3 +70,6 @@ type Person interface {
   completeName() string
 }
 ```
+
+
+
