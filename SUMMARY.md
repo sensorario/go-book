@@ -3,6 +3,9 @@
 ## Untitled part
 
 * [Introduction](README.md)
+
+## Contents
+
 * [Complex types](complex-types.md)
   * [Array, slices](Complex Types/array,_slices_and_maps.md)
   * [Maps](Complex Types/constant-map.md)
