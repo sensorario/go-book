@@ -3,6 +3,11 @@
 ## Untitled part
 
 * [Introduction](README.md)
+* [Complex types](complex-types.md)
+  * [Array, slices](Complex Types/array,_slices_and_maps.md)
+  * [Maps](Complex Types/constant-map.md)
+  * [Functions](Complex Types/functions.md)
+  * [Structs inheritance](Complex Types/structs_and_interfaces.md)
 
 ## Examples
 
