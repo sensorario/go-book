@@ -19,6 +19,10 @@
 * [Command line](Examples/command-line.md)
 * [Sorted list](Examples/sorted_list.md)
 * [Count file lines](Examples/count_file_lines.md)
-* Strings
+* [Strings](Examples/strings.md)
   * [to string](Examples/to-string.md)
+
+## Testing
+
+* [Introduction](Testing/testing.md)
 
