@@ -2,27 +2,9 @@
 
 ## Arrays
 
-An array is a numbered sequence of a single types. And has a fixed length. Like Strings, Arrays are indexed starting from 0.
+An array is a numbered sequence of a single types. And has a fixed length. Like Strings, Arrays are indexed starting from 0. To declare a float64 variable you can use different syntaxes.
 
-To convert between types, you use type name like a function.
-
-To loop over a variable, you should use range keyword.
-
-```go
-var x [3]float64
-
-x[0] = 42
-x[1] = 7
-x[2] = 23
-
-var total float64 = 0
-
-for -, value := range x {
-  total += value
-}
-```
-
-The underscore `_` tells to the Go compiler that we dont need any iterator variable.
+> Pay attention to the number between squared parenthesis: without this number you declare a slice. The difference between slices and array is in current book in Slices chapter.
 
 Another way to define arrays is the following. Notice the extra trailing ,. Comma is required by Go. It allow easilly to remove an element from the array by commenting out the line.
 
@@ -33,6 +15,61 @@ var x [3]float64{
   23,
 }
 ```
+
+  
+To loop over a variable, you should use range keyword.
+
+```
+var
+ x 
+[
+3
+]
+float64
+
+
+x
+[
+0
+]
+=
+42
+x
+[
+1
+]
+=
+7
+x
+[
+2
+]
+=
+23
+
+
+var
+ total 
+float64
+=
+0
+
+
+for
+-
+,
+ value 
+:=
+range
+ x 
+{
+  total 
++=
+ value
+}
+```
+
+The underscore`_`tells to the Go compiler that we dont need any iterator variable.
 
 ## Slices
 
