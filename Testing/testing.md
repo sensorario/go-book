@@ -8,7 +8,17 @@ Running `go test` tool, all `_test.go` files are scanned for all function whose 
 
 ## Write first test
 
-To create a test suite, we need to import special **testing** package. All test file must import this package. All functions that stats with Test are considered our tests. `Test` prefix is followed by an optional suffix. Suffix name must starts with capital letter. Name should describe what test is written for.
+To create a test suite, we need to import special **testing** package.
+
+```go
+import "testing"
+
+import (
+    "testing"
+)
+```
+
+All test file must import this package. All functions that stats with Test are considered our tests. `Test` prefix is followed by an optional suffix. Suffix name must starts with capital letter. Name should describe what test is written for.
 
 ```go
 func TestSomething(t *testing.T) {
