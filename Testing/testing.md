@@ -1,4 +1,4 @@
-# Testing
+# Testing {#testing}
 
 This chapter is not about testing in general. This chapter is about testing with go. In go we can execute our program running `go run` command. But we have to know that`go run` ignore file that ends with `_test.go`. The code inside this files, is considered by **go test** command. All files whose name ends with `_test.go` are not considered part of the package using **go build**. Are part of it, instead, using command `go test`. Files whose names begin with "\_" are ignored.
 

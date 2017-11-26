@@ -12,6 +12,10 @@
   * [Functions](Complex Types/functions.md)
   * [Structs inheritance](Complex Types/structs_and_interfaces.md)
 
+## Concurrency
+
+* [concurrency](Concurrency/concurrency.md)
+
 ## Examples
 
 * [Hello world](Examples/helloworld.md)
