@@ -3,6 +3,7 @@
 ## Untitled part
 
 * [Introduction](README.md)
+* Resources
 
 ## Contents
 
@@ -29,4 +30,9 @@
 ## Testing
 
 * [Introduction](Testing/testing.md)
+
+## Resources
+
+* [Books](Resources/books.md)
+* [Links](Resources/links.md)
 
