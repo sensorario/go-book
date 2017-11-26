@@ -86,13 +86,14 @@ In Go Programming Language is very common to write test _table-driven_. In other
 
 ```go
 func TestTableDriven(t *testing.T) {
-  var tests = []struct {
+  tests := []struct {
     input  string
     output bool
   }{
     {2, 4},
     {5, 10},
   }
+  
   for _, test := range tests {
     if got := Double(test.input); got != test.output {
       t.ErrorF("Double(%d) = %d", test.input, got)
