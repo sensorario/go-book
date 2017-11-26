@@ -80,7 +80,7 @@ By default, go test needs no arguments, but the flags handled by 'go test' itsel
     The test still runs (unless -c or -i is specified).
 ```
 
-## Table driven development
+## Table driven testing
 
 In Go Programming Language is very common to write test _table-driven_. In other languages and/or test framework like `phpunit` exists data providers. Instead of write more tests with different input/output, a table reuse same test with different sources. In this trivial example, we dont need to write two tests: we should write one single test, and iterate on it using a table. Add new line to the table as needed is straightforward.
 
