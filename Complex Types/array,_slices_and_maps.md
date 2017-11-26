@@ -16,56 +16,27 @@ var x [3]float64{
 }
 ```
 
-  
 To loop over a variable, you should use range keyword.
 
-```
-var
- x 
-[
-3
-]
-float64
+```go
+package main
 
+import "fmt"
 
-x
-[
-0
-]
-=
-42
-x
-[
-1
-]
-=
-7
-x
-[
-2
-]
-=
-23
+func main() {
+        var x [3]float64
 
+        x[0] = 42
+        x[1] = 7
+        x[2] = 23
 
-var
- total 
-float64
-=
-0
+        var total float64 = 0
 
+        for _, value := range x {
+                total += value
+        }
 
-for
--
-,
- value 
-:=
-range
- x 
-{
-  total 
-+=
- value
+        fmt.Println(total)
 }
 ```
 
