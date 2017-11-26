@@ -9,11 +9,15 @@ An array is a numbered sequence of a single types. And has a fixed length. Like 
 Another way to define arrays is the following. Notice the extra trailing ,. Comma is required by Go. It allow easilly to remove an element from the array by commenting out the line.
 
 ```go
+var x [3]float64
+
 var x [3]float64{
   42,
   7,
   23,
 }
+
+x := [3]float64{42, 7, 23}
 ```
 
 To loop over a variable, you should use range keyword.
