@@ -2,7 +2,7 @@
 
 ## Arrays
 
-An array is a numbered sequence of a single types. And has a fixed length. Like Strings, Arrays are indexed starting from 0. To declare a float64 variable you can use different syntaxes.
+An array is a numbered sequence of a single types. And has a fixed length. Like Strings, Arrays are indexed starting from 0. To declare a float64 variable you can use different syntaxes. This because length in arrays is immutable and cannot change.
 
 > Pay attention to the number between squared parenthesis: without this number you declare a slice. The difference between slices and array is in current book in Slices chapter.
 
