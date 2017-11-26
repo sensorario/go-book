@@ -21,7 +21,7 @@ import (
 All test file must import this package. All functions that stats with Test are considered our tests. `Test` prefix is followed by an optional suffix. Suffix name must starts with capital letter. Name should describe what test is written for.
 
 ```go
-func TestSomething(t *testing.T) {
+func TestSomethingMustHappen(t *testing.T) {
   // ...
 }
 ```
@@ -44,7 +44,7 @@ func TestSomething(t *testing.T) {
 }
 ```
 
-Test should be written before production code. This practice is called _test first_. This makes developer confident that whatever fix this test, is carefully descrive with a good `t.Error` message. This can also help to fix bugs and errors quickly.
+Test should be written before production code, following the test driven development methodology. This practice is called _test first_. This makes developer confident that whatever fix this test, is carefully descrive with a good `t.Error` message. This can also help to fix bugs and errors quickly.
 
 ## Usage
 
@@ -80,7 +80,7 @@ By default, go test needs no arguments, but the flags handled by 'go test' itsel
     The test still runs (unless -c or -i is specified).
 ```
 
-## Table driven testing
+## Table driven development
 
 In Go Programming Language is very common to write test _table-driven_. In other languages and/or test framework like `phpunit` exists data providers. Instead of write more tests with different input/output, a table reuse same test with different sources. In this trivial example, we dont need to write two tests: we should write one single test, and iterate on it using a table. Add new line to the table as needed is straightforward.
 
