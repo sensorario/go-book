@@ -6,10 +6,13 @@ An array is a numbered sequence of a single types. And has a fixed length. Like 
 
 > Pay attention to the number between squared parenthesis: without this number you declare a slice. The difference between slices and array is in current book in Slices chapter.
 
-Another way to define arrays is the following. Notice the extra trailing ,. Comma is required by Go. It allow easilly to remove an element from the array by commenting out the line.
+Another way to define arrays is the following. Notice the extra trailing "," comma is required by Go.
 
 ```go
 var x [3]float64
+x[0] = 42
+x[1] = 7
+x[2] = 23
 
 var x [3]float64{
   42,
