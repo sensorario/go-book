@@ -63,11 +63,6 @@ If we want to create a slice, we could use `make` function or other idiomatic wa
 
 ```go
 var slice := make([]float64, 5)
-slice = append(slice, 1)
-slice = append(slice, 2)
-slice = append(slice, 3)
-slice = append(slice, 4)
-slice = append(slice, 5)
 
 var slice := []float64{1, 2, 3, 4, 5}
 
@@ -103,11 +98,9 @@ Append adds elements onto the end of the slice.
 ```go
 func main() {
   slice := []int{42, 23}
-  slice_two := append(slice, 7) // 42, 23, 7
+  slice = append(slice, 7) // 42, 23, 7
 }
 ```
 
-### Copy
 
-Copy takes two arguments and copy the second to the first.
 
