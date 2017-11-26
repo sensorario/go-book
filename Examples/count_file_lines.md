@@ -6,26 +6,29 @@ This program, counts the lines of count.go file. It uses `os.Open()` and `os.Clo
 package main
 
 import (
-	"bufio"
-	"fmt"
-	"os"
-	"strconv"
+    "bufio"
+    "fmt"
+    "os"
+    "strconv"
 )
 
 func main() {
-	fileName := "count.go"
-	lines := countLines(fileName)
-	fmt.Println("File " + fileName + " has " + strconv.Itoa(lines) + " lines")
+    fileName := "count.go"
+    lines := countLines(fileName)
+    fmt.Println("File " + fileName + " has " + strconv.Itoa(lines) + " lines")
 }
 
 func countLines(fileName string) int {
-	numberOfLines := 0
-	fileHandler, _ := os.Open(fileName)
-	input := bufio.NewScanner(fileHandler)
-	for input.Scan() {
-		numberOfLines++
-	}
-	fileHandler.Close()
-	return numberOfLines
+    numberOfLines := 0
+    fileHandler, _ := os.Open(fileName)
+    input := bufio.NewScanner(fileHandler)
+    for input.Scan() {
+        numberOfLines++
+    }
+    fileHandler.Close()
+    return numberOfLines
 }
 ```
+
+
+

@@ -18,7 +18,5 @@ The import part, load packages used inside the main function. This section must 
 
 ## Main function
 
-Main package must contain a main function. This is the entry point of go programs.
-
-
+Main package must contain a main function. This is the entry point of go programs. If the project not contains main function, maybe the project is a library. To execute library code you need a main function or a test that can execute it.
 
