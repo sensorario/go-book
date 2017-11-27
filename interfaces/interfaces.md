@@ -61,6 +61,36 @@ $ go run *.go
 Yay!
 ```
 
+Here the complete source of example:
+
+```go
+package main
+
+import "fmt"
+
+type foo interface {
+    fizz()
+    buzz()
+}
+
+func (s example) fizz() {
+
+}
+
+func (s example) buzz() {
+
+}
+
+func woof(i foo) {
+        fmt.Println("Yay!")
+}
+
+func main() {
+        o := example{}
+        woof(o)
+}
+```
+
 ## Stringers
 
 In `fmt` package there is `Stringer` interface. An object that implement this interface can describe itself as a string. Let's try to use `fmt.Println(o)` with a struct that don't implement Stringer interface.
