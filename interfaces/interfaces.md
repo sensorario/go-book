@@ -63,5 +63,63 @@ Yay!
 
 ## Stringers
 
+In `fmt` package there is `Stringer` interface. An object that implement this interface can describe itself as a string. Let's try to use `fmt.Println(o)` with a struct that don't implement Stringer interface.
+
+```go
+package main
+
+import "fmt"
+
+type example struct {
+}
+
+func main() {
+        o := example{}
+        fmt.Println(o)
+}
+```
+
+`Println()` method know how to build the struct. The program can be builded. We can run it and see the following output.
+
+```go
+$ go run *.go
+{}
+```
+
+Now we'll add Stringer interface just with this snipped of code:
+
+```go
+func (e example) String() string {
+        return "Yay!"
+}
+```
+
+Et voila!
+
+```
+$ go run *.go
+Yay!
+```
+
+Here the complete source of the example:
+
+```go
+package main
+
+import "fmt"
+
+type example struct {
+}
+
+func (e example) String() string {
+        return "Yay!"
+}
+
+func main() {
+        o := example{}
+        fmt.Println(o)
+}
+```
+
 
 
