@@ -1,11 +1,15 @@
 # Interfaces
 
-In go interfaces are implicit. To implement an interface in go, we just need to implement all method of that interface. Here an example of declaration of an interface.
+In go interfaces are implicit. To implement an interface in go, we just need to implement all method of that interface.
+
+## Example
+
+Here an example of declaration of an interface.
 
 ```go
 type foo interface {
-    fizz() float64
-    buzz() float64
+    fizz()
+    buzz()
 }
 ```
 
@@ -20,7 +24,7 @@ Until now, this is just a struct. In the next section of code, we have two funct
 
 ```go
 func woof(i foo) {
-        fmt.Println("accetto solo oggetti con una certa interfaccia")
+        fmt.Println("Yay!")
 }
 
 func main() {
@@ -41,14 +45,23 @@ $ go build
 Two empty methods are enough.
 
 ```go
-func (s struttura) fizz() {
+func (s example) fizz() {
 
 }
 
-func (s struttura) buzz() {
+func (s example) buzz() {
 
 }
 ```
+
+Now our program compile and this the output:
+
+```go
+$ go run *.go
+Yay!
+```
+
+## Stringers
 
 
 
