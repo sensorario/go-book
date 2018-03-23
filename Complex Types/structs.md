@@ -13,5 +13,5 @@ var content := []struct {
 }
 ```
 
-This syntax is veri useful in [table driven testing.](/Testing/testing/table-driven-testing.md)
+This syntax is very useful in [table driven testing](/Testing/testing/table-driven-testing.md).
 
