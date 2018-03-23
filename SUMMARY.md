@@ -12,6 +12,7 @@
   * [Maps](Complex Types/constant-map.md)
   * [Functions](Complex Types/functions.md)
   * [Structs inheritance](Complex Types/structs_and_interfaces.md)
+  * [Structs](Complex Types/structs.md)
 
 ## Concurrency
 
