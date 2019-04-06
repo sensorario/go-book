@@ -30,5 +30,28 @@ func TestTableDriven(t *testing.T) {
 }
 ```
 
+## Example
 
+```go
+func TestMasterOrFeaturesBranchesAreDevelopment(t *testing.T) {
+	tests := []struct {
+		branch Branch
+		phase  string
+	}{
+		{Branch{"feature/branch-semantico/master"}, "development"},
+		{Branch{"hotfix/branch-semantico/master"}, "development"},
+		{Branch{"release/branch-semantico/master"}, "development"},
+		{Branch{"master"}, "development"},
+		{Branch{"1.4"}, "production"},
+	}
+
+	for _, test := range tests {
+		if got := test.branch.Phase(); got != test.phase {
+			t.Errorf("Oops! Expected " + test.phase + " but got " + test.branch.Phase() + " using branch " + test.branch.branch)
+		}
+	}
+}
+```
+
+In the real world example, developing `ff` I used this kind of test to detect branch phase during the gitflow. As you can see, here there are a slice of Branch objects and relative phase. Instead of write each tests separately, abstracting the concept is possible to reuse same test in different context. This reduce test's code to read and improve readability of tests.
 
